@@ -1,4 +1,4 @@
-# LeetCode
+# LeetCode 刷题记录
 
 ## DFS
 * [LCP 07. 传递信息（10-1）](./docs/LeetCode/DFS/LCP%2007.%20传递信息（10-1）.md)
