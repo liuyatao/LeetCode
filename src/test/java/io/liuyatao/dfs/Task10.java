@@ -17,7 +17,7 @@ public class Task10 {
         private int colLength = 0;
         private int rowLength = 0;
         private boolean[][] visited;
-        private boolean[][] marked;
+        private boolean[][] marked; // 用于结果打印
         private int count = 0;
 
         private boolean isInArea(int row, int col) {
@@ -37,7 +37,7 @@ public class Task10 {
             marked = new boolean[rowLength][colLength];
 
             dfs(0, 0, k);
-            printVisited();
+            printMarked();
             return count;
         }
 
@@ -75,7 +75,7 @@ public class Task10 {
             return sum + number;
         }
 
-        private void printVisited() {
+        private void printMarked() {
             System.out.println("-------------------");
             for (int i = 0; i < marked.length; i++) {
                 System.out.println(Arrays.toString(marked[i]));
