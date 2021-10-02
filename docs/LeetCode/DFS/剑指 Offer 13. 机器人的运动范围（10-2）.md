@@ -44,7 +44,6 @@
          * @param k
          */
         private void dfs(int row, int col, int k) {
-            // 终止条件
             int sum = getSum(row) + getSum(col);
             if (sum <= k) {
                 count++;
@@ -80,6 +79,10 @@
 ```
 
 # 思路
+
+直接DFS遍历整个二维数组，只统计满足条件的
+
+# 未通过用例
 
 输入：`16, 8, 4`  与其结果是`15`.但是应该是`25`
 
