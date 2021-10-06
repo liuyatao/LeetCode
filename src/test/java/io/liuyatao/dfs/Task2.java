@@ -56,5 +56,6 @@ public class Task2 {
         Solution solution = new Solution();
         int[][] relation = { { 0, 2 }, { 2, 1 }, { 3, 4 }, { 2, 3 }, { 1, 4 }, { 1, 3 }, { 2, 0 }, { 0, 4 } };
         int result = solution.numWays(5, relation, 3);
+        System.out.println(result);
     }
 }

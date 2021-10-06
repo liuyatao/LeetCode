@@ -1,7 +1,5 @@
 package io.liuyatao.binarySearch.mid;
 
-import java.util.Arrays;
-
 import org.junit.jupiter.api.Test;
 
 /**
